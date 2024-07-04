@@ -3,5 +3,5 @@
 
     $temperature_in_fahrenheit = ($temperature_in_celsius * 9/5) + 32;
     
-    printf("{$temperature_in_celsius} degree celsius is equal to ".$temperature_in_fahrenheit." Fahrenheit");
+    printf("{$temperature_in_celsius} degree celsius is equal to %.2f",$temperature_in_fahrenheit." Fahrenheit");
 ?>
